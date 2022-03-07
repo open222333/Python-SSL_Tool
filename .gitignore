@@ -1,3 +1,9 @@
+config.ini
+refer.conf
+domains.txt
+*.txt
+result/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
