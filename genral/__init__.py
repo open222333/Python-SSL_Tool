@@ -39,4 +39,6 @@ UPLOAD_CONF = config.getint('SSL', 'UPLOAD_CONF', fallback=0)
 
 CREATE_CONF = config.getint('SSL', 'CREATE_CONF', fallback=0)
 
-DOMAIN_DNS_RECORD = config.getint('SSL', 'CREATE_CONF', fallback=0)
+DOMAIN_DNS_RECORD = config.getint('SSL', 'DOMAIN_DNS_RECORD', fallback=0)
+
+SHOW_CERTBOT_COMMAND = config.getint('SSL', 'SHOW_CERTBOT_COMMAND', fallback=0)
